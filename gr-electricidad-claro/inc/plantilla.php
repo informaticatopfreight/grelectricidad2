@@ -94,7 +94,7 @@ function gr_bloque_contacto( $titulo_grande = true ) {
 		<div class="wrap">
 			<?php if ( $titulo_grande ) : ?>
 				<p class="label js-up">(Contacto)</p>
-				<p class="disp js-up" style="font-size:clamp(64px,13vw,220px);margin:0" aria-hidden="true"><span class="cta-word outline">¿Hablamos?</span></p>
+				<p class="disp js-up cta-big" aria-hidden="true"><span class="cta-word outline">¿Hablamos?</span></p>
 			<?php endif; ?>
 			<div class="contact-grid">
 				<div class="contact-data js-up">

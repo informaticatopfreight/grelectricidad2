@@ -3,7 +3,7 @@ Theme Name: GR Electricidad (fondo claro)
 Theme URI: https://grelectricidad.es/
 Author: GR Electricidad, S.L.
 Description: Tema a medida para GR Electricidad, S.L. Versión con fondo claro. Rápido, sin constructores visuales, con animaciones GSAP, aviso de cookies conforme a la AEPD, formulario de presupuesto y SEO local.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.0
@@ -147,7 +147,8 @@ p{margin:0 0 1em}
 .facts .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .fact{padding:32px 28px;border-left:1px solid rgba(20,20,20,.1)}
 .fact:first-child{border-left:0;padding-left:0}
-.fact .disp{font-size:clamp(64px,7vw,112px)}
+.fact .disp{font-size:clamp(40px,4vw,64px);font-stretch:110%;white-space:nowrap}
+.fact{min-width:0}
 .bar{height:2px;background:var(--red);margin:20px 0;transform-origin:left}
 .fact p{margin:0;color:var(--muted);font-size:16px}
 
@@ -185,7 +186,8 @@ p{margin:0 0 1em}
 
 /* ---------- Contacto / formulario ---------- */
 .contact{padding:130px 0 110px}
-.contact h2{font-size:clamp(64px,13vw,220px)}
+.contact h2{font-size:min(9.5vw,170px)}
+.cta-big{font-size:min(9.5vw,170px);margin:0;white-space:nowrap}
 .cta-word{transition:color .5s}
 .cta-word:hover{color:var(--red)}
 .contact-grid{display:flex;flex-wrap:wrap;gap:64px;margin-top:72px}
