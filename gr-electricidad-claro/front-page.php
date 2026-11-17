@@ -18,8 +18,6 @@ $linea     = 'M0 100 H360 L400 40 H760 L800 120 H1080 L1120 70 H1440';
 	<div class="wrap">
 		<div class="hero-meta mono js-up">
 			<span><span class="live" aria-hidden="true"></span><?php echo esc_html( gr_dato( 'razon_social' ) ); ?></span>
-			<span><?php echo esc_html( gr_dato( 'localidad' ) . ' · ' . gr_dato( 'provincia' ) ); ?></span>
-			<span>Desde <?php echo esc_html( gr_dato( 'anio_fundacion' ) ); ?></span>
 		</div>
 		<h1 class="disp js-hero-title" id="titulo-portada">
 			<span class="line"><span>Instalamos</span></span>
