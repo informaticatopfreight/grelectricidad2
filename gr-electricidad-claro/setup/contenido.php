@@ -178,7 +178,7 @@ return array(
 			'descripcion' => 'GR Electricidad, S.L., empresa instaladora autorizada desde 2007 en Pantoja (Toledo). Trabajos de alta, media y baja tensión en toda España.',
 			'foto'        => 'flota-furgonetas-gr-electricidad.jpg',
 			'contenido'   =>
-				$p( 'Fundada en 2007, GR Electricidad, S.L. ha especializado sus servicios en el sector industrial: empresas, comercios, organismos e instituciones que necesitan servicios eléctricos a medida. Tenemos nuestra sede, almacén y talleres en Pantoja (Toledo).' )
+				$p( 'Fundada en 2007, GR Electricidad, S.L. ha especializado sus servicios en el sector industrial: empresas, comercios, organismos e instituciones que necesitan servicios eléctricos a medida. Tenemos nuestra sede y nuestros talleres en Pantoja (Toledo).' )
 				. $h2( 'Estamos autorizados' )
 				. $p( 'Contamos con las autorizaciones legales y los carnés necesarios para todo tipo de trabajos en baja, media y alta tensión, así como en telecomunicaciones. <a href="/acreditaciones/">Ver todas las acreditaciones</a>.' )
 				. $h2( 'Seriedad' )

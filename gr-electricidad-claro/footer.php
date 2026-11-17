@@ -21,10 +21,6 @@ $ga = gr_dato( 'ga_id' );
 			<p><?php echo esc_html( gr_dato( 'direccion' ) ); ?><br><?php echo esc_html( gr_dato( 'cp' ) . ' ' . gr_dato( 'localidad' ) . ' (' . gr_dato( 'provincia' ) . ')' ); ?></p>
 		</div>
 		<div>
-			<p class="mono">Almacén</p>
-			<p><?php echo esc_html( gr_dato( 'almacen' ) ); ?><br><?php echo esc_html( gr_dato( 'cp' ) . ' ' . gr_dato( 'localidad' ) . ' (' . gr_dato( 'provincia' ) . ')' ); ?></p>
-		</div>
-		<div>
 			<p class="mono">Talleres</p>
 			<p><?php echo nl2br( esc_html( gr_dato( 'talleres' ) ) ); ?><br><?php echo esc_html( gr_dato( 'cp' ) . ' ' . gr_dato( 'localidad' ) . ' (' . gr_dato( 'provincia' ) . ')' ); ?></p>
 		</div>

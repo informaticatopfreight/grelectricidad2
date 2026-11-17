@@ -26,7 +26,6 @@ add_action(
 			'cp'            => array( 'Código postal', 'text' ),
 			'localidad'     => array( 'Localidad', 'text' ),
 			'provincia'     => array( 'Provincia', 'text' ),
-			'almacen'       => array( 'Dirección del almacén', 'text' ),
 			'talleres'      => array( 'Dirección de los talleres', 'textarea' ),
 			'tel_comercial' => array( 'Teléfono de contrataciones y presupuestos', 'text' ),
 			'tel_admin'     => array( 'Teléfono móvil de administración', 'text' ),

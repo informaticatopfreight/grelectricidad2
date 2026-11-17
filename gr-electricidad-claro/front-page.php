@@ -118,9 +118,9 @@ $linea     = 'M0 100 H360 L400 40 H760 L800 120 H1080 L1120 70 H1440';
 			<p>Autorizada en alta tensión (AT1 y AT2) y en baja tensión, categoría especialista</p>
 		</div>
 		<div class="fact js-up">
-			<div class="disp"><span class="js-count" data-from="0" data-to="3">3</span></div>
+			<div class="disp"><span class="js-count" data-from="0" data-to="2">2</span></div>
 			<div class="bar js-bar"></div>
-			<p>Centros en <?php echo esc_html( gr_dato( 'localidad' ) ); ?>: sede, almacén y talleres</p>
+			<p>Centros en <?php echo esc_html( gr_dato( 'localidad' ) ); ?>: sede y talleres</p>
 		</div>
 		<div class="fact js-up">
 			<div class="disp">REA</div>

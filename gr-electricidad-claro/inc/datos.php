@@ -18,7 +18,6 @@ function gr_datos_por_defecto() {
 		'cp'             => '45290',
 		'localidad'      => 'Pantoja',
 		'provincia'      => 'Toledo',
-		'almacen'        => 'C/ Carlos Sainz, 1',
 		'talleres'       => "Ctra. CM-4004, km 29\nPol. 16, parcela 1 «Las Lagunas»",
 		'tel_comercial'  => '609 056 184',
 		'tel_admin'      => '653 757 250',

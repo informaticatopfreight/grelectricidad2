@@ -22,7 +22,6 @@ while ( have_posts() ) :
 	<section class="wrap" style="padding-top:64px" aria-label="Dónde estamos">
 		<div class="footer-grid">
 			<div class="js-up"><p class="mono" style="color:var(--red-text)">Sede / correo postal</p><p><?php echo esc_html( gr_dato( 'direccion' ) ); ?><br><?php echo esc_html( gr_dato( 'cp' ) . ' ' . gr_dato( 'localidad' ) . ' (' . gr_dato( 'provincia' ) . ')' ); ?></p></div>
-			<div class="js-up"><p class="mono" style="color:var(--red-text)">Almacén</p><p><?php echo esc_html( gr_dato( 'almacen' ) ); ?><br><?php echo esc_html( gr_dato( 'cp' ) . ' ' . gr_dato( 'localidad' ) . ' (' . gr_dato( 'provincia' ) . ')' ); ?></p></div>
 			<div class="js-up"><p class="mono" style="color:var(--red-text)">Talleres</p><p><?php echo nl2br( esc_html( gr_dato( 'talleres' ) ) ); ?><br><?php echo esc_html( gr_dato( 'cp' ) . ' ' . gr_dato( 'localidad' ) . ' (' . gr_dato( 'provincia' ) . ')' ); ?></p></div>
 			<div class="js-up" style="align-self:end"><a class="btn btn-ghost" href="<?php echo esc_url( 'https://www.google.com/maps/search/?api=1&query=' . rawurlencode( $direccion ) ); ?>" target="_blank" rel="noopener">Cómo llegar <?php echo gr_flecha(); // phpcs:ignore WordPress.Security.EscapeOutput ?></a></div>
 		</div>
